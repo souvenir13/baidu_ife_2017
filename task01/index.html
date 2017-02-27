@@ -14,7 +14,7 @@
 			<li class="navS"><a href="">导航链接四</a></li>
 		</ul>
 	</div>
-	<div class="article">
+	<section class="article">
 		<h1>文章一级标题</h1>
 		<h2>文章二级标题</h2>
 		<div class="subtitle">author time</div>
@@ -25,8 +25,8 @@
 		<br>
 		<div class="context">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<a href="http://ife.baidu.com">猜猜这个链接链到哪里？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</div>
 		<br>
-	</div>
-	<div class="article">
+	</section>
+	<section class="article">
 		<h1>另一篇文章一级标题</h1>
 		<h2>另一篇文章二级标题</h2>
 		<div class="subtitle">author time</div>
@@ -37,7 +37,7 @@
 		<br>
 		<div class="context">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<a href="http://ife.baidu.com">猜猜这个链接链到哪里？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</div>
 		<br>
-	</div>
+	</section>
 	<ul id="list">
 			<li class="itemS"><a href="">Item 1</a></li>
 			<li class="itemS"><a href="">Item 2</a></li>
@@ -45,34 +45,20 @@
 			<li class="itemS"><a href="">Item 4</a></li>
 		</ul>	
 	<div class="pictures">
-		<div class="pic">
-			这是一个超萌的小猫
-			<br>
+		<figure>
+			<figcaption>Fig1.这是一个超萌的小猫</figcaption>
 			<img src="images/cat.jpg" alt="cat" width="300">
-		</div>
-		<div class="pic">
-			这是一个超萌的小猫
-			<br>
+		</figure>
+		<figure>
+			<figcaption>Fig1.这是一个超萌的小猫</figcaption>
 			<img src="images/cat.jpg" alt="cat" width="300">
-		</div>
-		<div class="pic">
-			这是一个超萌的小猫
-			<br>
+		</figure>
+		<figure>
+			<figcaption>Fig1.这是一个超萌的小猫</figcaption>
 			<img src="images/cat.jpg" alt="cat" width="300">
-		</div>
-		<div class="pic">
-			这是一个超萌的小猫
-			<br>
-			<img src="images/cat.jpg" alt="cat" width="300">
-		</div>
-		<div class="pic">
-			这是一个超萌的小猫
-			<br>
-			<img src="images/cat.jpg" alt="cat" width="300">
-		</div>
-
+		</figure>
 	</div>
-	<div class="article">
+	<article class="article">
 		<h1>最后一篇文章一级标题</h1>
 		<h2>最后一篇文章二级标题</h2>
 		<div class="subtitle">author time</div>
@@ -83,8 +69,8 @@
 				<li class="rank">2.排名2</li>
 				<li class="rank">3.排名3</li>
 			</ul>
-			下面是一个表格，给表格加了一个border='1'好让你看出是一个表格
-			<table border="1">
+			下面是一个可编辑的表格，给表格加了一个border='1'好让你看出是一个表格
+			<table border="1" contenteditable="true">
 				<tr>
 					<th>表头</th>
 					<th>表头</th>
@@ -117,17 +103,23 @@
 			</table>
 		</div>
 		<br>
-	</div>
+	</article>
 	<div class="sidebar">
 		<h1>这里以后是个侧拦，这是侧拦的标题</h1>
 		<h2>侧拦注册窗口标题</h2>
+		<section>
 		<label for="">Email:<input type="email"></label><br>
-		邮箱地址请按要求格式输入<br>
+		邮箱地址请按要求格式输入
+		</section>
+		<section>
 		<label for="">Password:<input type="text"></label>
 		<label for="">Repeat Password:<input type="text"></label><br>
 		密码请为6-16位英文数字
-		<br>
+		</section>
+		<section>
 		<label for="">Sex:</label><input type="radio" name="sex" value="male">male<input type="radio" name="sex" value="female">female
+		</section>
+		<section>
 		<label>城市：</label>
 		<select name="city" id="">
 			<option value="1">北京</option>
@@ -138,9 +130,11 @@
 		<input type="checkbox" name="hobby" value="sports">运动
 		<input type="checkbox" name="hobby" value="arts">艺术
 		<input type="checkbox" name="hobby" value="science">科学
-		<br>
+		</section>
+		<section>
 		<label for="">个人描述</label>
 		<textarea placeholder="这是一个多行文本输入框。" cols="30" rows="10"></textarea>
+		</section>
 	</div>
 	<footer>
 		<p>Posted by: Bowen Chan</p>

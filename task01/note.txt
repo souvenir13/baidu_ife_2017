@@ -10,18 +10,53 @@ http://www.runoob.com/tags/html-elementsdoctypes.html
 
 <base> 标签为页面上的所有的相对链接规定默认 URL 或默认目标。
 
+
+HTML 参考手册
+http://www.runoob.com/tags/ref-byfunc.html
 HTML5 新特性
-<audio> 音频标签
-<aside> 
+
 <mark> 高亮文本
-<bdi> 
+<bdi>  允许您设置一段文本，使其脱离其父元素的文本方向设置。
+<meter>定义度量衡。仅用于已知最大和最小值的度量。
+<progress>定义运行中的任务进度（进程）。
+<time>
+<datalist>规定了 input 元素可能的选项列表。
+<canvas>
+<figure><figcaption>
+<source>
+<audio> 音频标签
+<video>
+<command>目前主流浏览器都不支持。只有IE9支持
+<section>定义了文档的某个区域
+<aside> <article>
+<details> <summary>
+<embed>定义了一个容器，用来嵌入外部应用或者互动程序（插件）
 
 一些HTML5 中新增属性的元素
 <button> autofocus、form、formaction、formenctype、formmethod、formnovalidate 以及 formtarget
+一些新增全局属性
+contenteditable 规定是否为可编辑的内容
+data-* 用于存储私有页面后应用的自定义数据
+hidden
+draggable
+
+一些新增事件
+窗口事件
+onresize 当调整窗口大小时运行脚本
+onunload 当用户离开文档时运行脚本
+鼠标事件
+onmousewheel当转动鼠标滚轮时运行脚本
+onscroll
+
+
 
 HTML5 中将元素中的一些呈现属性都删除了，让这些属性统统交由CSS来呈现
 
 已废除的标签
-<basefont>
+<basefont>定义页面中文本的默认字体、颜色或尺寸。
 <applet>
 <acronym> HTML4支持 HTML5不支持
+<big>HTML5不再支持。 定义大号文本。
+<center>HTML5不再支持。 HTML 4.01 已废弃。
+<frame><frameset>
+<menu>目前主流浏览器都不支持
