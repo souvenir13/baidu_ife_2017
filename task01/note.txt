@@ -1,7 +1,8 @@
 HTML 相关概念
 HTML，一种标记语言。它告诉浏览器如何显示内容。
+HTML使用预先定义的元素集合来识别内容形态。 元素包含一个以上的标记来包含或者表达内容。
 
-HTML <!DOCTYPE> 声明
+HTML <!DOCTYPE> 文档类型声明
 <!DOCTYPE>声明不是一个HTML标签；它用来告知浏览器使用哪种HTML版本。
 HTML4.01 规定了三种不同的<!DOCTYPE>声明，分别是：Strict、Transitional、Frameset
 HTML5 中仅规定了一种。<!DOCTYPE html>
